@@ -36,16 +36,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onOpenModal }) => {
           >
             View Details
           </button>
-          {project.liveUrl && project.liveUrl !== '#' && (
-            <a 
-              href={project.liveUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2.5 rounded-lg font-semibold text-sm bg-white text-sky-600 border border-sky-500 hover:bg-sky-50 transition-all duration-300 transform hover:scale-105 shadow-sm"
-            >
-              Live Link
-            </a>
-          )}
         </div>
       </div>
     </div>
